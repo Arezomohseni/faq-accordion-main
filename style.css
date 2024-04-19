@@ -3,46 +3,61 @@
   box-sizing: border-box;
 }
 body {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   background-color: hsl(275, 100%, 97%);
   display: flex;
+  align-items: center;
   justify-content: center;
-  margin: 0;
   height: 100vh;
   background-image: url(./assets/images/background-pattern-desktop.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
 #main {
-  padding: 20px;
-  margin-top: 15%;
-  width: 31vw;
-  height: 50vh;
-  align-items: center;
+  width: 540px;
+  height: auto;
+  padding: 0 30px;
+
   background-color: hsl(0, 0%, 100%);
   border-radius: 10px;
 }
 .top {
   display: flex;
   align-items: center;
-  padding: 10px 0 20px 0;
+  padding: 20px 0;
 }
 
-.minus,
-.plus {
+.minus {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0 10px 0;
+  padding-bottom: 20px;
 }
 .plus {
   border-top: 1px solid hsl(275, 100%, 97%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
 }
 p {
   color: hsl(292, 16%, 49%);
   font-size: 16px;
-  padding: 10px 0 20px 0;
+  font-weight: 400;
+  padding-bottom: 20px;
 }
-h1,
+h1 {
+  color: hsl(292, 42%, 14%);
+  font-weight: 700;
+  font-size: 3rem;
+}
 h4 {
   color: hsl(292, 42%, 14%);
+  font-weight: 600;
+}
+h4:hover {
+  color: hsl(293, 50%, 45%);
+  cursor: pointer;
 }
